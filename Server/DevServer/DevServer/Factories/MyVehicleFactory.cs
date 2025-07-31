@@ -1,6 +1,12 @@
-﻿namespace DevServer.Factories;
+﻿using AltV.Net;
+using AltV.Net.Elements.Entities;
 
-public class MyVehicleFactory
+namespace DevServer.Factories;
+
+public class MyVehicleFactory : IEntityFactory<IVehicle>
 {
-    
+    public IVehicle Create(ICore core, IntPtr entityPointer, uint id)
+    {
+        return new Vehicle(core, entityPointer, id);
+    }
 }

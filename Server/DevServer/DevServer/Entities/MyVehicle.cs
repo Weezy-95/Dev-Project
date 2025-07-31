@@ -1,6 +1,12 @@
-﻿namespace DevServer.Entities;
+﻿using AltV.Net;
+using AltV.Net.Elements.Entities;
 
-public class MyVehicle
+namespace DevServer.Entities;
+
+public class MyVehicle : Vehicle
 {
-    
+    public MyVehicle(ICore core, IntPtr nativePointer, uint id) : base(core, nativePointer, id)
+    {
+
+    }
 }
