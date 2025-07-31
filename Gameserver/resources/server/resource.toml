@@ -1,0 +1,2 @@
+type = "csharp"
+main = "net8.0/DevServer.dll"

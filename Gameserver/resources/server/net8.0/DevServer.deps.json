@@ -1,0 +1,182 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DevServer/1.0.0": {
+        "dependencies": {
+          "AltV.Net": "16.4.20",
+          "AltV.Net.EntitySync.ServerEvent": "16.4.20",
+          "AltV.Net.Interactions": "16.4.20",
+          "AltV.Net.Resources.Chat.Api": "16.4.20"
+        },
+        "runtime": {
+          "DevServer.dll": {}
+        }
+      },
+      "AltV.Net/16.4.20": {
+        "dependencies": {
+          "AltV.Net.Shared": "16.4.20"
+        },
+        "runtime": {
+          "lib/net8.0/AltV.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Async/16.4.20": {
+        "dependencies": {
+          "AltV.Net": "16.4.20",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AltV.Net.Async.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.CApi/16.4.20": {
+        "runtime": {
+          "lib/net8.0/AltV.Net.CApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.EntitySync/1.18.0": {
+        "dependencies": {
+          "System.Threading.Channels": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AltV.Net.EntitySync.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.EntitySync.ServerEvent/16.4.20": {
+        "dependencies": {
+          "AltV.Net": "16.4.20",
+          "AltV.Net.Async": "16.4.20",
+          "AltV.Net.EntitySync": "1.18.0",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AltV.Net.EntitySync.ServerEvent.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Interactions/16.4.20": {
+        "dependencies": {
+          "AltV.Net": "16.4.20"
+        },
+        "runtime": {
+          "lib/net8.0/AltV.Net.Interactions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Resources.Chat.Api/16.4.20": {
+        "dependencies": {
+          "AltV.Net": "16.4.20"
+        },
+        "runtime": {
+          "lib/net8.0/AltV.Net.Resources.Chat.Api.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AltV.Net.Shared/16.4.20": {
+        "dependencies": {
+          "AltV.Net.CApi": "16.4.20"
+        },
+        "runtime": {
+          "lib/net8.0/AltV.Net.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Threading.Channels/6.0.0": {}
+    }
+  },
+  "libraries": {
+    "DevServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AltV.Net/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lhdSRsZRt2MfLf103VQWrbY90NesQ+WxSmpsNa1sz7T5Pa2DFvabUYxxbQ4XjtCOyxSZHZ9DvLYWBP/6T9Q17Q==",
+      "path": "altv.net/16.4.20",
+      "hashPath": "altv.net.16.4.20.nupkg.sha512"
+    },
+    "AltV.Net.Async/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-acG6DWAaSMMXC5hWzRvufb0Gj76GvCDSpVOdtyKztN9MZVGHwDQSoq+UR/DWy4khj/NC/i9hqPi2sQ2NmY+ScQ==",
+      "path": "altv.net.async/16.4.20",
+      "hashPath": "altv.net.async.16.4.20.nupkg.sha512"
+    },
+    "AltV.Net.CApi/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qVCo1ZPlMdKv6UoMOXZ3uKsnPJSWYBVFmFeEtzA0e6Jy02xcP5Ac2IO9+QY7oJ4vB/U9AEMXYppCLtHQ+kdLOg==",
+      "path": "altv.net.capi/16.4.20",
+      "hashPath": "altv.net.capi.16.4.20.nupkg.sha512"
+    },
+    "AltV.Net.EntitySync/1.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MQK9bitRkjq6AXEzPX4qMrfA95Iq8D8zfgAHA5y1Xk1xDymaJWrt+s5SubsueD6JCWILgHebMI8g8S1dfxRHZQ==",
+      "path": "altv.net.entitysync/1.18.0",
+      "hashPath": "altv.net.entitysync.1.18.0.nupkg.sha512"
+    },
+    "AltV.Net.EntitySync.ServerEvent/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QOrppv+BnuSPmEl2EOO+ZVPlo4frnyLqdvM5MjOI8zagvX83hxqC39UZ/BVYmRw+rRG370i64LJMicVPy9o3Mg==",
+      "path": "altv.net.entitysync.serverevent/16.4.20",
+      "hashPath": "altv.net.entitysync.serverevent.16.4.20.nupkg.sha512"
+    },
+    "AltV.Net.Interactions/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jY/unqJ7xcDW1Sy+Afkka2b3MYqCUYW5shdq81YQKmsopzmhZ17wQDtGHOw2DVF+g3dhG6jVBYQZxKw7Ud1q7A==",
+      "path": "altv.net.interactions/16.4.20",
+      "hashPath": "altv.net.interactions.16.4.20.nupkg.sha512"
+    },
+    "AltV.Net.Resources.Chat.Api/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-srFaJ1ZGqfVwEYt950MSJOb+tQPydNAZMtSpHE5dV5ebiQJByDXBw2HUZ/gQ0NTgLgOqPPnZ58AxpJjPX6Dldw==",
+      "path": "altv.net.resources.chat.api/16.4.20",
+      "hashPath": "altv.net.resources.chat.api.16.4.20.nupkg.sha512"
+    },
+    "AltV.Net.Shared/16.4.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ByzvFSeD2VxMSQUXVsZaH2sgkXptrwCpHCD5sL1qxI29vls2jlKU3GsDWYbRbl4dDELohdXp4tKi9+v0maK5g==",
+      "path": "altv.net.shared/16.4.20",
+      "hashPath": "altv.net.shared.16.4.20.nupkg.sha512"
+    },
+    "System.Threading.Channels/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+      "path": "system.threading.channels/6.0.0",
+      "hashPath": "system.threading.channels.6.0.0.nupkg.sha512"
+    }
+  }
+}

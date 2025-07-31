@@ -1,42 +1,47 @@
-[19:02:06] alt:V Server 16.4.27 (release)
-[19:02:06] Starting Bocos Dev Server on [::]:7788
-[19:02:06] Creating and archiving resources
-[19:02:06] Making resource chat
-[19:02:06] The resource chat is made
-[19:02:06] Making resource server
-[19:02:06][Error] Could not open resource config
-[19:02:06][Error] Failed to create resource server
-[19:02:06] Making resource client
-[19:02:06][Error] Could not open resource config
-[19:02:06][Error] Failed to create resource client
-[19:02:06] Creation and archiving resources completed
-[19:02:06] Starting resources
-[19:02:06] Loading resource chat
-[19:02:06] Loaded resource chat
-[19:02:06] Loading resource server
-[19:02:06][Error] Failed to load resource server
-[19:02:06] Loading resource client
-[19:02:06][Error] Failed to load resource client
-[19:02:06] Start of resources is completed
-[19:02:06] Required server permissions:
-[19:02:06] Optional server permissions:
-[19:02:06] Starting HTTP server on [::]:7788
-[19:02:06] Main thread started (ThreadId: 41268)
-[19:02:06] SyncSend thread started (ThreadId: 5372)
-[19:02:06] EntityStreamer thread started (ThreadId: 7436)
-[19:02:06] SyncSend thread started (ThreadId: 42236)
-[19:02:06] SyncSend thread started (ThreadId: 38816)
-[19:02:06] SyncSend thread started (ThreadId: 41676)
-[19:02:06] SyncSend thread started (ThreadId: 15336)
-[19:02:06] SyncSend thread started (ThreadId: 13248)
-[19:02:06] SyncSend thread started (ThreadId: 10492)
-[19:02:06] SyncSend thread started (ThreadId: 42124)
-[19:02:06] SyncReceive thread started (ThreadId: 6716)
-[19:02:06] SyncReceive thread started (ThreadId: 500)
-[19:02:06] SyncReceive thread started (ThreadId: 9132)
-[19:02:06] NetworkWorker #1 thread started (ThreadId: 32900)
-[19:02:06] SyncReceive thread started (ThreadId: 29416)
-[19:02:06] Console thread started (ThreadId: 38104)
-[19:02:06] Server started
-[19:02:13] Stopping resource chat
-[19:02:13] Stopped resource chat
+[20:21:05] alt:V Server 16.4.27 (release)
+[20:21:05] Starting Bocos Dev Server on [::]:7788
+[20:21:05] Creating and archiving resources
+[20:21:05] Making resource chat
+[20:21:05] The resource chat is made
+[20:21:05] Making resource server
+[20:21:05] The resource server is made
+[20:21:05] Making resource client
+[20:21:05] The resource client is made
+[20:21:05] Making resource reconnect
+[20:21:05] The resource reconnect is made
+[20:21:05] Creation and archiving resources completed
+[20:21:05] Starting resources
+[20:21:05] Loading resource chat
+[20:21:05] Loaded resource chat
+[20:21:05] Loading resource server
+[20:21:08][Warning] Ped health value can not be higher than 8191
+[20:21:08][Warning] Ped armour value can not be higher than 8191
+[20:21:08][C#] [PedHandler] Rental ped spawned and frozen.
+[20:21:08][C#] [ColShape] Rental zone initialized.
+[20:21:08] Loaded resource server
+[20:21:08] Loading resource client
+[20:21:08][Error] Failed to load resource client
+[20:21:08] Loading resource reconnect
+[20:21:08] Loaded resource reconnect
+[20:21:08] Start of resources is completed
+[20:21:08] Required server permissions:
+[20:21:08] Optional server permissions:
+[20:21:08] Starting HTTP server on [::]:7788
+[20:21:08] Main thread started (ThreadId: 42024)
+[20:21:08] EntityStreamer thread started (ThreadId: 45696)
+[20:21:08] SyncSend thread started (ThreadId: 40728)
+[20:21:08] SyncSend thread started (ThreadId: 36532)
+[20:21:08] SyncSend thread started (ThreadId: 42076)
+[20:21:08] SyncSend thread started (ThreadId: 29684)
+[20:21:08] SyncSend thread started (ThreadId: 27572)
+[20:21:08] SyncSend thread started (ThreadId: 42224)
+[20:21:08] SyncSend thread started (ThreadId: 42684)
+[20:21:08] SyncSend thread started (ThreadId: 25312)
+[20:21:08] NetworkWorker #1 thread started (ThreadId: 30968)
+[20:21:08] SyncReceive thread started (ThreadId: 45300)
+[20:21:08] SyncReceive thread started (ThreadId: 38716)
+[20:21:08] SyncReceive thread started (ThreadId: 43320)
+[20:21:08] SyncReceive thread started (ThreadId: 27960)
+[20:21:08] Console thread started (ThreadId: 45668)
+[20:21:08][Warning] Server started in debug mode
+[20:21:20][C#] [ColShape] Kai Mahone entered the rental zone.
