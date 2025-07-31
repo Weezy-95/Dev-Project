@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>C:\Users\kaibr\Desktop\Git\Dev-Project\Gameserver\resources\server</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AltV.Net" Version="16.4.20" />
+      <PackageReference Include="AltV.Net.EntitySync.ServerEvent" Version="16.4.20" />
+      <PackageReference Include="AltV.Net.Interactions" Version="16.4.20" />
+      <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="16.4.20" />
+    </ItemGroup>
+
+</Project>
