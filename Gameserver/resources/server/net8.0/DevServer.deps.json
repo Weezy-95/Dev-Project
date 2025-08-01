@@ -9,6 +9,7 @@
       "DevServer/1.0.0": {
         "dependencies": {
           "AltV.Net": "16.4.20",
+          "AltV.Net.Async": "16.4.20",
           "AltV.Net.EntitySync.ServerEvent": "16.4.20",
           "AltV.Net.Interactions": "16.4.20",
           "AltV.Net.Resources.Chat.Api": "16.4.20"

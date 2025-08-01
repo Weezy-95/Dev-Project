@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <PackageReference Include="AltV.Net" Version="16.4.20" />
+      <PackageReference Include="AltV.Net.Async" Version="16.4.20" />
       <PackageReference Include="AltV.Net.EntitySync.ServerEvent" Version="16.4.20" />
       <PackageReference Include="AltV.Net.Interactions" Version="16.4.20" />
       <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="16.4.20" />

@@ -1,4 +1,5 @@
-type = 'js'
-main = 'server/index.js'
+type = "js"
+client-type = 'js'
+
 client-main = 'client/index.js'
-client-files = [ 'client/*', 'shared/*' ]
+client-files = [ 'client/*', 'client/**/*' ]

@@ -67,4 +67,3 @@ alt.on("keyup", (key) => {
   }
 });
 
-pushLine("<b>alt:V Multiplayer has started</b>");
