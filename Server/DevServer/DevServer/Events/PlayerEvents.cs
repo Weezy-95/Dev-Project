@@ -12,5 +12,7 @@ public class PlayerEvents : IScript
         player.SetDateTime(DateTime.Now);
         player.Model = (uint)PedModel.FreemodeMale01;
         player.Spawn(new AltV.Net.Data.Position((float)-1032.8967, (float) -2729.855, (float)13.744385), 0);
+        var money = player.Money = 5000;
+        player.Emit("money:update", money);
     }
 }

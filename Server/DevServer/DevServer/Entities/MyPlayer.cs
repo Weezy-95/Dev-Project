@@ -10,6 +10,6 @@ public class MyPlayer : Player
 
     public MyPlayer(ICore core, IntPtr nativePointer, uint id) : base(core, nativePointer, id)
     {
-        Money = 5000;
+        
     }
 }

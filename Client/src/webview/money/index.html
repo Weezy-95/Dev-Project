@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body { margin:0; font-family: ui-sans-serif, system-ui, Arial; }
+        .wrap {
+            position: fixed; top: 24px; right: 24px;
+            background: rgba(0,0,0,.55); backdrop-filter: blur(6px);
+            border-radius: 12px; padding: 10px 14px; min-width: 140px;
+            display: flex; align-items: center; justify-content: flex-end;
+            color: #fff; font-weight: 700; font-size: 22px;
+        }
+        .currency { opacity: .85; margin-right: 6px; }
+    </style>
+    <title>money</title>
+</head>
+<body>
+<div class="wrap">
+    <span class="currency">$</span><span id="money">0</span>
+</div>
+<script>
+    const moneyEl = document.getElementById('money');
+
+    function setMoney(amount) {
+        moneyEl.textContent = Number(amount).toLocaleString('de-DE');
+    }
+
+    if ('alt' in window) {
+        window.addEventListener('DOMContentLoaded', () => {
+            alt.emit('ui:ready:money');
+        });
+
+        alt.on('money:set', setMoney);
+    } else {
+        setMoney(12345);
+    }
+</script>
+</body>
+</html>
