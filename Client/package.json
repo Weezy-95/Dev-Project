@@ -1,0 +1,25 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && swc ./src -d ../Gameserver/resources/client/client --copy-files",
+    "clean": "rimraf ../Gameserver/resources/client/client",
+    "copyFiles": "copy-files-from-to"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@altv/types-client": "^16.4.1",
+    "@altv/types-natives": "^16.2.1",
+    "@altv/types-shared": "^16.4.1",
+    "@altv/types-webview": "^16.4.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1",
+    "swc": "^1.0.11"
+  }
+}

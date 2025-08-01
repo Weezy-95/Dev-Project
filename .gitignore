@@ -3,3 +3,5 @@ Gameserver/cache
 Server/DevServer/.idea
 Server/DevServer/DevServer/obj
 Gameserver/server.log
+Client/node_modules
+Client/.idea

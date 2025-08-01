@@ -48,6 +48,4 @@ public class CommandHandler : IScript
         player.Spawn(player.Position);
         player.Health = 200;
     }
-    
-
 }
