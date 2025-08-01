@@ -27,12 +27,12 @@ namespace DevServer.Handler
 
             if (state)
             {
-                player.SendChatMessage("~g~You have entered the rental zone.");
+                player.SendChatMessage("You have entered the rental zone.");
                 Alt.Log($"[ColShape] {player.Name} entered the rental zone.");
             }
             else
             {
-                player.SendChatMessage("~y~You have left the rental zone.");
+                player.SendChatMessage("You have left the rental zone.");
                 Alt.Log($"[ColShape] {player.Name} left the rental zone.");
             }
         }
